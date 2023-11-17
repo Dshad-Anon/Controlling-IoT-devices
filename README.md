@@ -34,3 +34,5 @@ The application should gracefully handle invalid inputs without crashing.
 Follow C# coding conventions and best practices.
 Write clear, maintainable code.
 Include comments explaining major sections of the code and any complex logic.
+
+![Output](https://github.com/Dshad-Anon/Controlling-IoT-devices/assets/101971367/fea30f23-4f7f-4988-8f66-815723af50a2)
