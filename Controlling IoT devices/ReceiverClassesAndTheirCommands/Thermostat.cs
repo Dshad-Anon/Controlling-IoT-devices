@@ -23,6 +23,10 @@ namespace Controlling_IoT_devices.IoTDevices
             temperature--;
             Console.WriteLine("The temperature is decreased to {0}",temperature);
         }
+        public string GetStatus()
+        {
+            return $"***THERMOSTAT TEMPERATURE: {temperature}***";
+        }
     }
 
     //Command to Increase the thermostat temperature.

@@ -10,13 +10,20 @@ namespace Controlling_IoT_devices.IoTDevices
 {
     public class Light
     {
+        private bool IsLightON = false;
         public void TurnOn()
         {
+            IsLightON = true;
             Console.WriteLine("Light is turned on.");
         }
         public void TurnOff()
         {
+            IsLightON = false;
             Console.WriteLine("Light is turned off");
+        }
+        public string GetStatus()
+        {
+            return IsLightON ? "***LIGHT IS ON***" : "***Light is OFF***";
         }
     }
     public class LightTurningOn : ICommand
